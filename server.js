@@ -13,4 +13,7 @@ cloudinary.config({
 app.listen(process.env.PORT, () => {
     console.log(`Example app listening on port ${process.env.PORT}`)
   })
-
+  
+//Deployed Link  
+// https://social-media-backend-leud.onrender.com/
+// https://social-media-backend-leud.onrender.com/api/v1/me
