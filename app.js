@@ -16,7 +16,7 @@ app.use(cookieParser());
 
 //cors
 app.use(cors({  
-  origin:[["https://social-media-backend-leud.onrender.com"],["http://localhost:4000"],["http://localhost:4000"]],
+  origin:[["https://social-media-backend-leud.onrender.com"],["http://localhost:3000"],["http://localhost:4000"]],
   methods:['GET','POST','PUT','DELETE','PATCH'],
   credentials:true,
 }));
