@@ -16,6 +16,10 @@ app.use(cookieParser());
 const  post  = require('./routes/post'); //from routes folder post.js
 const  user  = require('./routes/user'); 
 
+app.get("/", (req, res) => {
+  res.send("API is running....");
+});
+
 //Using Routes
 app.use("/api/v1",post); //localhost:3000/api/v1/post/upload
 app.use("/api/v1",user);//localhost:3000/api/v1/register
